@@ -33,4 +33,9 @@ func main() {
 	}
 	fmt.Printf("DINO FACT!! \nName: %s \nDescription: %s\n", dino.Name, dino.Description)
 	fmt.Printf("               __\n              / _)\n     _.----._/ /\n    /         /\n __/ (  | (  |\n/__.-'|_|--|_|")
+
+	_, err = fmt.Scanf("h")
+	if err != nil {
+		return
+	}
 }
